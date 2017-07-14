@@ -7,10 +7,16 @@ layout: resume
 
 Under construction. Please check back later!
 
-## Experience
+### Education
+#### Cornell University
+* Bachelor of Arts in Computer Science
+* GPA: ____
 
-## Education
+#### Dublin High School
+* GPA: ____
 
-### Testing, testing
 
-#### More testing
+### Experience
+#### Computation Intern
+##### Lawrence Livermore National Laboratory | Livermore, CA
+
