@@ -1,13 +1,14 @@
 baseURL = "http://lillianzhang10.github.io/"
 languageCode = "en-us"
-title = "Welcome."
+title = "Lillian Zhang"
 theme = "minimal"
 
 [params]
     author = "Lillian Zhang"
     description = "Personal website powered by Hugo"
     githubUsername = "lillianzhang10"
-    accent = "#6496B4"
+    favicon = "img/favicon.png"
+    accent = "#64B4C8"
     showBorder = true
     backgroundColor = "white"
     font = "Helvetica" # should match the name on Google Fonts!

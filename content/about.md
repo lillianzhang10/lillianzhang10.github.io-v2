@@ -5,6 +5,4 @@ menu: true
 layout: single
 ---
 
-# About Me
-
-Under construction. Please come back later!
+Hi. I'm Lillian Zhang, a computer science major at Cornell University. Currently, I am interning at Lawrence Livermore National Laboratory as part of the HPC Academy. 

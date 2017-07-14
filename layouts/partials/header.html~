@@ -5,10 +5,6 @@
 
     <link rel="icon" href="/favicon.ico">
 
-    {{- with .Site.Params.favicon }}
-      <link href='{{. | absURL }}' rel='icon' type='image/x-icon'/>
-    {{- end -}}
-
     <title>{{ .Site.Title }} - {{ .Title }}</title>
 
         {{ partial "css" . }} {{ partial "js" . }} {{ .Hugo.Generator }}
