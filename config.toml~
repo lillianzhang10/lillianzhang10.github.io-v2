@@ -1,54 +1,60 @@
-baseurl = "https://lillianzhang10.github.io/"
+baseURL = "http://example.com/"
 languageCode = "en-us"
-title = "Welcome"
-theme = "blackburn"
-author = "Lillian Zhang"
-#copyright = "&copy; 2016. All rights reserved."
-canonifyurls = true
-paginate = 10
-
-[indexes]
-  tag = "tags"
-  topic = "topics"
+title = "Minimal"
+theme = "minimal"
 
 [params]
-  # Shown in the home page
-  subtitle = "Website under construction"
-#  brand = "Blackburn"
-#  googleAnalytics = "Your Google Analytics tracking ID"
-#  disqus = "Your Disqus shortname"
-  # CSS name for highlight.js
-  highlightjs = "androidstudio"
-  dateFormat = "02 Jan 2006, 15:04"
+    author = "Calin Tataru"
+    description = "Personal blog theme powered by Hugo"
+    githubUsername = "#"
+    accent = "red"
+    showBorder = true
+    backgroundColor = "white"
+    font = "Quicksand" # should match the name on Google Fonts!
+    highlight = true
+    highlightStyle = "solarized-dark"
+    highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift"]
 
-[menu]
-  # Shown in the side menu.
-  [[menu.main]]
-    name = "Home"
-    pre = "<i class='fa fa-home fa-fw'></i>"
-    weight = 1
-    identifier = "home"
+[[menu.main]]
     url = "/"
-  [[menu.main]]
-    name = "About"
-    pre = "<i class='fa fa-user fa-fw'></i>"
-    weight = 2
-    identifier = "about"
-    url = "/about/"
-  [[menu.main]]
-    name = "Resume"
-    pre = "<i class='fa fa-file fa-fw'></i>"
-    weight = 3
-    url = "/resume/"
-  [[menu.main]]
-    name = "Contact"
-    pre = "<i class='fa fa-envelope fa-fw'></i>"
-    weight = 4
-    url = "/contact/"
+    name = "Home"
+    weight = 1
 
-[social]
-  # Link your social networking accouns to the side menu
-  # by entering your username or ID.
-  github = "lillianzhang10"
-  stackoverflow = "*"
-  linkedin = "*"
+[[menu.main]]
+    url = "/post/"
+    name = "Posts"
+    weight = 2
+
+[[menu.main]]
+    url = "/project/"
+    name = "Projects"
+    weight = 3
+
+# Social icons to be shown on the right-hand side of the navigation bar
+# The "name" field should match the name of the icon to be used
+# The list of available icons can be found at http://fontawesome.io/icons/
+
+[[menu.icon]]
+    url = "mailto:me@example.com"
+    name = "envelope-o"
+    weight = 1
+
+[[menu.icon]]
+    url = "https://github.com/username/"
+    name = "github"
+    weight = 2
+
+[[menu.icon]]
+    url = "https://twitter.com/username/"
+    name = "twitter"
+    weight = 3
+
+[[menu.icon]]
+    url = "https://www.linkedin.com/in/username/"
+    name = "linkedin"
+    weight = 4
+
+[[menu.icon]]
+    url = "https://www.stackoverflow.com/username/"
+    name = "stack-overflow"
+    weight = 5
