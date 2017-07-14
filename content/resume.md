@@ -2,12 +2,15 @@
 title: "Resume"
 date: 2017-07-13T15:01:28-07:00
 menu: true
+layout: resume
 ---
 
 Under construction. Please check back later!
 
-### Experience
+## Experience
 
-### Education
+## Education
 
-#### Testing, testing
+### Testing, testing
+
+#### More testing
