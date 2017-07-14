@@ -5,4 +5,6 @@ menu: true
 layout: single
 ---
 
+<img src={{ "img/id.jpg" | absURL }} alt="Personal Photograph" style="width:128px;height:128ps;">
+
 Hi. I'm Lillian Zhang, a computer science major at Cornell University. Currently, I am interning at Lawrence Livermore National Laboratory as part of the HPC Academy. 
